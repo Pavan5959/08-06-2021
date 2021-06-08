@@ -1,0 +1,17 @@
+{
+  "name": "proj",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  
+  //Here Script is added from the webpack configuration
+  "scripts": {
+    "build": "webpack --config webpack.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.2"
+  }
+}
